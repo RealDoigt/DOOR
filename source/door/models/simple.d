@@ -19,3 +19,16 @@ abstract class Shape3D
 
     abstract void draw();
 }
+
+class Point3D : Shape3D
+{
+    this(Vector3 position, Color color)
+    {
+        super(position, color);
+    }
+
+    override void draw()
+    {
+        DrawPoint3D(position, color);
+    }
+}
