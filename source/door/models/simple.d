@@ -48,3 +48,19 @@ class Line3D : Shape3D
         DrawLine3D(position, endPosition, color);
     }
 }
+
+class Plane : Shape3D
+{
+    Vector2 size;
+
+    this(Vector3 center, Vector2 size, Color color)
+    {
+        super(center, color);
+        this.size = size;
+    }
+
+    override void draw()
+    {
+        DrawPlane(position, size, color);
+    }
+}
