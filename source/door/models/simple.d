@@ -32,3 +32,19 @@ class Point3D : Shape3D
         DrawPoint3D(position, color);
     }
 }
+
+class Line3D : Shape3D
+{
+    Vector3 endPosition;
+
+    this(Vector3 start, Vector3 end, Color color)
+    {
+        super(start, color);
+        endPosition = end;
+    }
+
+    override void draw()
+    {
+        DrawLine3D(position, endPosition, color);
+    }
+}
