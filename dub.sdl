@@ -3,4 +3,4 @@ description "D Object Oriented Raylib. A high level, object oriented wrapper for
 authors "Doigt"
 copyright "Copyright © 2024, Doigt"
 license "MIT"
-dependency "raylib-d" version="~>4.0.0"
+dependency "raylib-d" version="~>4.0.2"
