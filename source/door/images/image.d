@@ -74,7 +74,7 @@ class Img
 
     this(Image image, Rectangle rectangle)
     {
-        image = ImageFromImage(image, rectangle);
+        this.image = ImageFromImage(image, rectangle);
     }
 
     this(Img image, Rect rectangle)
