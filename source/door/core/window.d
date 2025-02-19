@@ -63,11 +63,6 @@ __gshared class Window
         ToggleFullscreen;
     }
     
-    //void toggleBorderless()
-    //{
-    //    ToggleBorderlessWindowed;
-    //} Not sure why that won't compile, maybe it doesn't exist in 4.0? I'll have to check later
-    
     void maximize()
     {
         MaximizeWindow;

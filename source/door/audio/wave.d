@@ -30,7 +30,7 @@ class WaveSnd
 
     ~this()
     {
-        wave.UnloadWave;
+       if (IsWindowReady) wave.UnloadWave;
     }
 
     // export is a reserved keyword in D

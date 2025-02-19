@@ -1,7 +1,11 @@
 module door.shapes;
-public import door.shapes.rectangle;
-public import door.shapes.triangle;
-public import door.shapes.factory;
-public import door.shapes.regular;
-public import door.shapes.circle;
-public import door.shapes.shape;
+
+public
+{
+    import door.shapes.rectangle;
+    import door.shapes.triangle;
+    import door.shapes.factory;
+    import door.shapes.regular;
+    import door.shapes.circle;
+    import door.shapes.shape;
+}

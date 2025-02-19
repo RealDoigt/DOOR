@@ -20,7 +20,7 @@ class MusicStream : IAudio
 
     ~this()
     {
-        music.UnloadMusicStream;
+        if (IsWindowReady) music.UnloadMusicStream;
     }
 
     override void setVolume(float volume)

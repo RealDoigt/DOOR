@@ -26,7 +26,7 @@ class Tx2d
 
     ~this()
     {
-        texture.UnloadTexture;
+        if (IsWindowReady) texture.UnloadTexture;
     }
 
     void update(Img image)

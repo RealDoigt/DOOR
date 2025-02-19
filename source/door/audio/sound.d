@@ -25,7 +25,7 @@ class Snd : IAudio
 
     ~this()
     {
-        sound.UnloadSound;
+        if (IsWindowReady) sound.UnloadSound;
     }
 
     void playMultichannel()
