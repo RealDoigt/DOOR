@@ -64,7 +64,7 @@ class Img
 
     this(Image image)
     {
-        image = ImageCopy(image);
+        this.image = ImageCopy(image);
     }
 
     this(Img image)
