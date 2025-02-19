@@ -84,7 +84,7 @@ class Img
 
     ~this()
     {
-        image.UnloadImage;
+        if (IsWindowReady) image.UnloadImage;
     }
 
     int width()

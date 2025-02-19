@@ -14,7 +14,7 @@ class Audio : IAudio
 
     ~this()
     {
-        stream.UnloadAudioStream;
+        if (IsWindowReady) stream.UnloadAudioStream;
     }
 
     void update(const void* data, int frameCount)
