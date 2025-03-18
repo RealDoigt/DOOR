@@ -1,5 +1,6 @@
 module door.images.tile_sheet;
 import door.images.image;
+import door.shapes.rectangle;
 
 class TileSheet
 {

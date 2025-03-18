@@ -1,5 +1,6 @@
 module door.images.sprite_sheet;
 import door.images.image;
+import door.shapes.rectangle;
 
 class SpriteSheet
 {
