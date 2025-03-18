@@ -7,4 +7,5 @@ public
     import door.images.clickable_delegate;
     import door.images.sprite_list;
     import door.images.sprite_queue;
+    import door.images.sprite_sheet;
 }
