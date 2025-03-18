@@ -8,4 +8,5 @@ public
     import door.images.sprite_list;
     import door.images.sprite_queue;
     import door.images.sprite_sheet;
+    import door.images.tile_sheet;
 }
